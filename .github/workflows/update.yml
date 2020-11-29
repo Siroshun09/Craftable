@@ -28,6 +28,7 @@ jobs:
       - name: Deploy pages
         uses: peaceiris/actions-gh-pages@v3.7.3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          external_repository: Siroshun09/siroshun09.github.io
+          personal_token: ${{ secrets.ACTIONS_DEPLOY_KEY }}
           publish_dir: ./dist
           allow_empty_commit: true
