@@ -1,0 +1,33 @@
+name: Update GitHub Pages
+
+on:
+  push:
+    branches: [master]
+
+jobs:
+  deploy:
+    name: Deploy to GitHub Pages
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v2.3.3
+      - name: Setup Node.js
+        uses: actions/setup-node@v1.4.4
+      - name: Cache Node.js modules
+        uses: actions/cache@v2.1.2
+        with:
+          path: ~/.cache/yarn
+          key: ${{ runner.OS }}-node-${{ hashFiles('**/yarn.lock') }}
+          restore-keys: |
+            ${{ runner.OS }}-node-
+            ${{ runner.OS }}-    
+      - name: Install dependencies
+        run: yarn install
+      - name: Build pages
+        run: yarn run build
+      - name: Deploy pages
+        uses: peaceiris/actions-gh-pages@v3.7.3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          allow_empty_commit: true

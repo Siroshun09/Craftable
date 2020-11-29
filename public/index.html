@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="512x512" href="<%= BASE_URL %>logo.png">
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,700|Source+Sans+Pro:400,700" rel="stylesheet">
+
+    <title>Craftable</title>
+    <meta name="description" content="Craftable is Siroshun09's personal site.">
+    <meta name="author" content="Siroshun09">
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Craftable">
+    <meta name="twitter:description" content="Craftable is Siroshun09's personal site.">
+    <meta name="twitter:image" content="<%= BASE_URL %>logo.png">
+
+    <meta property="og:title" content="Craftable">
+    <meta property="og:description" content="Craftable is Siroshun09's personal site.">
+    <meta property="og:type" content="product">
+    <meta property="og:image" content="<%= BASE_URL %>logo.png">
+    <meta property="og:url" content="https://siroshun09.github.io">
+    <meta property="og:site_name" content="Craftable">
+
+    <script>
+        (function (l) {
+        if (l.search) {
+            var q = {};
+            
+            l.search.slice(1).split('&').forEach(function (v) {
+                var a = v.split('=');
+                q[a[0]] = a[1];
+            });
+
+            if (q.p !== undefined) {
+                window.history.replaceState(null, null, l.pathname.slice(0, -1) + (q.p || ''));
+            }
+        }
+      }(window.location))
+    </script>
+  </head>
+  <body>
+    <noscript>
+      <strong>We're sorry but Craftable doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app"></div>
+  </body>
+</html>
