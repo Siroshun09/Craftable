@@ -21,7 +21,7 @@
                         <font-awesome icon="code" fixed-width />
                         Programming
                     </span>
-                    <ul :class="{ active: open_mc, 'top-level': true}">
+                    <ul :class="{ active: open_programming, 'top-level': true}">
                         <li>
                             <router-link to="/java/minecraft">
                                 Minecraft
