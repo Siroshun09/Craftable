@@ -18,6 +18,8 @@
 
 [LunaChat](https://github.com/ucchyocean/LunaChat/releases) と連携して、Discord と Minecraft のチャットで相互会話できるようにするプラグイン。
 
+---
+
 ## [PunishmentNotifier](https://github.com/okocraft/PunishmentNotifier)
 
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/okocraft/PunishmentNotifier) ![GitHub](https://img.shields.io/github/license/okocraft/PunishmentNotifier?label=License)
