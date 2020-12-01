@@ -2,6 +2,16 @@
 
 ## Spigot
 
+### [Hugs](https://github.com/okocraft/Hugs)
+
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/okocraft/Hugs) ![GitHub](https://img.shields.io/github/license/okocraft/Hugs?label=License)
+
+エンティティをシフト右クリックしたり、`/hug <player>` で抱擁するプラグイン。
+
+Spigot で更新停止されたもののハグ機能のみ実装した。
+
+機能を削り軽量化していった結果、1クラスだけとなり 6kb 程度の Jar となった。
+
 ## Paper
 
 ### [TimingsGenerator](https://github.com/okocraft/TimingsGenerator)
