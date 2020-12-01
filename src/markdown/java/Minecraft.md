@@ -12,6 +12,15 @@ Spigot で更新停止されたもののハグ機能のみ実装した。
 
 機能を削り軽量化していった結果、1クラスだけとなり 6kb 程度の Jar となった。
 
+---
+
+### [Imperatrix](https://github.com/okocraft/Imperatrix)
+
+![GitHub](https://img.shields.io/github/license/okocraft/Imperatrix?label=License)
+
+[PlaceholderAPI](https://github.com/PlaceholderAPI/PlaceholderAPI) の拡張。
+おこ鯖。向けのプレースホルダーを提供している。
+
 ## Paper
 
 ### [TimingsGenerator](https://github.com/okocraft/TimingsGenerator)
