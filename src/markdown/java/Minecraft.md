@@ -4,6 +4,10 @@
 
 ## Paper
 
+### [TimingsGenerator](https://github.com/okocraft/TimingsGenerator)
+
+定期的に `/timings report` を実行して負荷を後から確認できるようにするプラグイン。
+
 ## BungeeCord
 
 ## Library
