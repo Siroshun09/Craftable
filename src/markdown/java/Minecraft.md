@@ -12,6 +12,12 @@
 
 ## BungeeCord
 
+### [DiscordChatBridge](https://github.com/okocraft/DiscordChatBridge)
+
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/okocraft/DiscordChatBridge) ![GitHub](https://img.shields.io/github/license/okocraft/DiscordChatBridge)
+
+[LunaChat](https://github.com/ucchyocean/LunaChat/releases) と連携して、Discord と Minecraft のチャットで相互会話できるようにするプラグイン。
+
 ## Library
 
 ### [MCMessage](https://github.com/Siroshun09/MCMessage)
