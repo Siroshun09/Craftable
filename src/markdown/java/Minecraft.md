@@ -6,6 +6,8 @@
 
 ### [TimingsGenerator](https://github.com/okocraft/TimingsGenerator)
 
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/okocraft/TimingsGenerator) ![GitHub](https://img.shields.io/github/license/okocraft/TimingsGenerator)
+
 定期的に `/timings report` を実行して負荷を後から確認できるようにするプラグイン。
 
 ## BungeeCord
