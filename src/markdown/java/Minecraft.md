@@ -6,7 +6,7 @@
 
 ### [TimingsGenerator](https://github.com/okocraft/TimingsGenerator)
 
-![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/okocraft/TimingsGenerator) ![GitHub](https://img.shields.io/github/license/okocraft/TimingsGenerator)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/okocraft/TimingsGenerator) ![GitHub](https://img.shields.io/github/license/okocraft/TimingsGenerator?label=License)
 
 定期的に `/timings report` を実行して負荷を後から確認できるようにするプラグイン。
 
@@ -14,7 +14,7 @@
 
 ### [DiscordChatBridge](https://github.com/okocraft/DiscordChatBridge)
 
-![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/okocraft/DiscordChatBridge) ![GitHub](https://img.shields.io/github/license/okocraft/DiscordChatBridge)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/okocraft/DiscordChatBridge) ![GitHub](https://img.shields.io/github/license/okocraft/DiscordChatBridge?label=License)
 
 [LunaChat](https://github.com/ucchyocean/LunaChat/releases) と連携して、Discord と Minecraft のチャットで相互会話できるようにするプラグイン。
 
