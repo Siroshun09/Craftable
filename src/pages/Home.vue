@@ -1,7 +1,7 @@
 <template>
   <main id="home">
       <div class=head>
-        <img alt="Craftable image" src='~@/assets/home_image.png'>    
+        <img alt="Craftable image" src='~@/assets/home_image.jpg'>    
       </div>
 
       <div class=content>
