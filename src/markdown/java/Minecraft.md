@@ -10,7 +10,7 @@
 
 Spigot で更新停止されたもののハグ機能のみ実装した。
 
-機能を削り軽量化していった結果、1クラスだけとなり 6kb 程度の Jar となった。
+機能を削り軽量化していった結果、1クラスだけのプラグイン (6kb) となった。
 
 ---
 
@@ -35,7 +35,7 @@ Spigot で更新停止されたもののハグ機能のみ実装した。
 
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/okocraft/DiscordChatBridge) ![GitHub](https://img.shields.io/github/license/okocraft/DiscordChatBridge?label=License)
 
-[LunaChat](https://github.com/ucchyocean/LunaChat/releases) と連携して、Discord と Minecraft のチャットで相互会話できるようにするプラグイン。
+[LunaChat](https://github.com/ucchyocean/LunaChat/releases) と連携して、Discord と Minecraft で相互チャットできるようにするプラグイン。
 
 ---
 
