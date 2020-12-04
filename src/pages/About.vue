@@ -1,10 +1,10 @@
 <template>
-    <main id=about>
+    <div id=about>
         <div class=icon>
-        <img alt="Siroshun09's icon" src='~@/assets/icon.jpg'>    
-      </div>
+            <img alt="Siroshun09's icon" src='~@/assets/icon.jpg'>
+        </div>
         <Markdown path="About" />
-    </main>
+    </div>
 </template>
 
 <script>
@@ -19,8 +19,12 @@ export default {
 
 <style lang="scss">
 @import url('../css/MarkdownPage.css');
+
 #about {
-    width: 50%;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3em;
 
     @include breakpoint($xs) {
         width: 90%;
@@ -35,8 +39,13 @@ export default {
         >img {
             margin-left: auto;
             margin-right: auto;
-            height: 50%;
-            width: 50%;
+            height: 40%;
+            width: 40%;
+
+            @include breakpoint($xs) {
+                height: 50%;
+                width: 50%;
+            }
         }
     }
 

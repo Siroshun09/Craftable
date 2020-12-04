@@ -1,7 +1,7 @@
 <template>
-    <main>
+    <div class=markdown>
         <Markdown path="java/Library" />
-    </main>
+    </div>
 </template>
 
 <script>

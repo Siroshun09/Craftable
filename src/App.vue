@@ -1,12 +1,18 @@
 <template>
   <div id="app">
-    <header><Header /></header>
+    <header>
+      <Header />
+    </header>
 
-    <transition name="fade" mode="out-in">
-      <router-view/>
-    </transition>
+    <main id=main-contents>
+      <transition name="fade" mode="out-in">
+        <router-view />
+      </transition>
+    </main>
 
-    <footer><Footer /></footer>
+    <footer>
+      <Footer />
+    </footer>
   </div>
 </template>
 
@@ -97,5 +103,9 @@ body {
   font-family: 'Source Sans Pro', 'Noto Sans CJK JP', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+#main-contents {
+  margin-bottom: 3em;
 }
 </style>

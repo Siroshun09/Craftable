@@ -1,7 +1,7 @@
 <template>
-    <main>
+    <div class=markdown>
         <Markdown path="java/Minecraft" />
-    </main>
+    </div>
 </template>
 
 <script>
