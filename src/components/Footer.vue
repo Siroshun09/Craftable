@@ -6,7 +6,7 @@
         <br />
         <small xmlns:dct="http://purl.org/dc/terms/" xmlns:cc="http://creativecommons.org/ns#" class="license-text">
             <a rel="cc:attributionURL" property="dct:title" href="siroshun09.github.io">Craftable</a> is licensed under 
-            <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0">
+            <a rel="license" href="https://github.com/Siroshun09/Craftable/blob/master/LICENSE">
                 CC BY-SA 4.0
                 <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"
                     src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" />
