@@ -35,7 +35,6 @@
               <a href="https://github.com/Siroshun09/Craftable/blob/master/LICENSE">
               表示 - 継承 4.0 国際 | Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
               </a>
-
           </p>
       </div>
   </div>
