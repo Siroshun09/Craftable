@@ -11,11 +11,11 @@
 
 ## 好きなもの / こと
 
-- 綾鷹
-- 抹茶
-- 東方 Project
-- Minecraft
-- Programming
+綾鷹
+抹茶
+東方 Project
+Minecraft
+Programming
 
 ## アイコン / スキン
 
@@ -26,16 +26,16 @@
 
 ## 活動
 
-- [おこ鯖。](https://www.okocraft.net/wiki/)運営
-- Spigot / BungeeCord のプラグイン作成
-- Java 用ライブラリ開発
+[おこ鯖。](https://www.okocraft.net/wiki/)運営
+Spigot / BungeeCord のプラグイン作成
+Java 用ライブラリ開発
 
 ## SNS とか
 
-- [Twitter](https://twitter.com/Siroshun09) - `@Siroshun09`
-- [GitHub](https://github.com/Siroshun09) - `@Siroshun09`
-- Minecraft - `Siroshun09`
-- Discord - `Siroshun09#7501`
+[Twitter](https://twitter.com/Siroshun09) - `@Siroshun09`
+[GitHub](https://github.com/Siroshun09) - `@Siroshun09`
+Minecraft - `Siroshun09`
+Discord - `Siroshun09#7501`
 
 ## (補足) Shiroshun ではない?
 
