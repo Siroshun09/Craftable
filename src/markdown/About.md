@@ -4,10 +4,7 @@
 アカウント名は `Siroshun09` で活動していることが多いです。
 "**しろ**" でも反応します。
 
-理系ですが化学が超苦手、数学は好きです。
-古典は聞かないでください。
-
-誕生日は5月15日。
+誕生日は5月15日です。
 
 ## 好きなもの / こと
 
@@ -36,9 +33,3 @@ Java 用ライブラリ開発
 [GitHub](https://github.com/Siroshun09) - `@Siroshun09`
 Minecraft - `Siroshun09`
 Discord - `Siroshun09#7501`
-
-## (補足) Shiroshun ではない?
-
-しろしゅんをローマ字にすると普通は `Shiroshun` になるのですが、Google アカウント作るときに父親が `Siroshun` と入力したため、この表記になっています。
-
-長らく `Siroshun` なので今更変えるつもりはありませんが、`Shiroshun` でも多分応答します。
