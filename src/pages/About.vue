@@ -50,7 +50,7 @@ export default {
     }
 
     .markdown-body {
-        >h1 {
+        >h1,h2,p {
             text-align: center;
         }
     }
