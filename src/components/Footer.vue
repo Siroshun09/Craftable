@@ -8,11 +8,11 @@
             <a rel="cc:attributionURL" property="dct:title" href="siroshun09.github.io">Craftable</a> is licensed under 
             <a rel="license" href="https://github.com/Siroshun09/Craftable/blob/master/LICENSE">
                 CC BY-SA 4.0
-                <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"
+                <img alt="cc" style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"
                     src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" />
-                <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"
+                <img alt="by" style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"
                     src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" />
-                <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"
+                <img alt="sa" style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"
                     src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1" />
             </a>
         </small>
