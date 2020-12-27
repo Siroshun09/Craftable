@@ -36,14 +36,14 @@
                 </li>
 
                 <li>
-                    <a href="https://twitter.com/Siroshun09" target="_blank">
+                    <a href="https://twitter.com/Siroshun09" target="_blank" rel="noopener">
                         <font-awesome :icon="['fab', 'twitter']" fixed-width />
                         Twitter
                     </a>
                 </li>
 
                 <li>
-                    <a href="https://github.com/Siroshun09" target="_blank">
+                    <a href="https://github.com/Siroshun09" target="_blank" rel="noopener">
                         <font-awesome :icon="['fab', 'github']" fixed-width />
                         GitHub
                     </a>
