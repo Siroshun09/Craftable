@@ -51,7 +51,7 @@
 
             </ul>
 
-            <button id="nav-menu-toggle" @click="menu = !menu">
+            <button aria-label="navigation-menu-toggle" id="nav-menu-toggle" @click="menu = !menu">
                 <font-awesome icon="bars" />
             </button>
 
