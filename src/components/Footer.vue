@@ -23,7 +23,7 @@
 #footer {
     padding: .3em 1em;
     position: relative;
-    font-size: 1.0em;
+    font-size: 1.5em;
     flex: 0 0 auto;
     height: auto;
     width: 100%;
