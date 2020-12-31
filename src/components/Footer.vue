@@ -1,7 +1,7 @@
 <template>
     <div id='footer'>
         <small>
-            Copyright © {{new Date().getFullYear().toString()}} <a href="https://github.com/Siroshun09">Siroshun09</a>
+            Copyright © 2020-2021 <a href="https://github.com/Siroshun09">Siroshun09</a>
         </small>
         <br />
         <small xmlns:dct="http://purl.org/dc/terms/" xmlns:cc="http://creativecommons.org/ns#" class="license-text">
