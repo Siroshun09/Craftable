@@ -1,6 +1,9 @@
 import Vue from 'vue';
 import Router from 'vue-router';
 import Home from './pages/Home.vue'
+import About from './pages/About.vue'
+import JavaMinecraft from './pages/java/Minecraft.vue'
+import JavaLibrary from './pages/java/Library.vue'
 import NotFound from './pages/NotFound.vue';
 
 Vue.use(Router);
@@ -19,17 +22,17 @@ const routes = [
     {
       path: '/about',
       name: 'about',
-      component: () => import('./pages/About'),
+      component: About,
     },
     {
       path: '/java/minecraft',
       name: 'Minecraft Plugins',
-      component: () => import('./pages/java/Minecraft'),
+      component: JavaMinecraft,
     },
     {
       path: '/java/library',
       name: 'Libraries for Java',
-      component: () => import('./pages/java/Library'),
+      component: JavaLibrary,
     },
 ];
 
