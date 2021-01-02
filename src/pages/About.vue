@@ -1,7 +1,7 @@
 <template>
     <div id=about>
         <div class=icon>
-            <img alt="Siroshun09's icon" src='~@/assets/icon.jpg'>
+            <img alt="Siroshun09's icon" src="https://i.imgur.com/grWEt3W.jpg"/>
         </div>
         <Markdown path="About" />
     </div>
