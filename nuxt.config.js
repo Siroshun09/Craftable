@@ -54,7 +54,7 @@ export default {
       {
         hid: 'og:image',
         property: 'og:image',
-        content: 'https://i.imgur.com/mdyHJ7c.jpg'
+        content: 'https://siroshun09.github.io/_nuxt/img/logo.e5fa723.png'
       },
       {
         hid: 'og:locale',
