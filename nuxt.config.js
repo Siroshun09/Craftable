@@ -148,6 +148,7 @@ export default {
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
     '@nuxtjs/style-resources',
+    '@nuxtjs/sitemap'
   ],
 
   // Content module configuration (https://go.nuxtjs.dev/config-content)
@@ -193,5 +194,12 @@ export default {
 
   googleAnalytics: {
     id: 'G-0QZQ25GGX8'
+  },
+
+  sitemap: {
+    path: '/sitemap.xml',
+    hostname: 'https://siroshun09.github.io',
+    cacheTime: 1000 * 60 * 15,
+    gzip: true,
   }
 }
