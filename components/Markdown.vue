@@ -40,7 +40,7 @@ export default {
 <style lang="scss">
 .markdown-body {
   a {
-    color: #5555ff;
+    color: $link-color;
     text-decoration: none;
   }
 
