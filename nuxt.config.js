@@ -81,11 +81,35 @@ export default {
         property: 'twitter:creator',
         content: '@Siroshun09'
       },
+      {
+        hid: 'msapplication-TileColor',
+        name: 'msapplication-TileColor',
+        content: '#da532c'
+      },
+      {
+        hid: 'theme-color',
+        name: 'theme-color',
+        content: '#ffffff'
+      },
     ],
     link: [{
         rel: 'icon',
         type: 'image/x-icon',
         href: '/favicon.ico'
+      },
+      {
+        rel: "apple-touch-icon",
+        sizes: "180x180",
+        href: "/apple-touch-icon.png"
+      },
+      {
+        rel: "manifest",
+        href: "/site.webmanifest"
+      },
+      {
+        rel: "mask-icon",
+        href: "/safari-pinned-tab.svg",
+        color: "#5bbad5"
       },
       {
         rel: 'dns-prefetch',
