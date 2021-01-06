@@ -45,9 +45,10 @@ jobs:
         run: yarn install
 
       - name: Build pages
-        run: 
-          - yarn build
-          - yarn generate
+        run: yarn build
+
+      - name: Generate pages
+        run: yarn generate
 
       - name: Deploy pages
         uses: peaceiris/actions-gh-pages@v3.7.3
