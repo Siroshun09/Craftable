@@ -5,6 +5,7 @@ export default {
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
     htmlAttrs: {
+      lang: 'ja',
       prefix: 'og: http://ogp.me/ns#'
     },
     titleTemplate: '%s - Craftable',
