@@ -1,4 +1,4 @@
-# craftable2
+# Craftable
 
 ## Build Setup
 
