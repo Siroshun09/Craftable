@@ -187,6 +187,10 @@ export default {
     }
   },
 
+  generate: {
+    fallback: true
+  },
+
   styleResources: {
     scss: [
       '@/assets/scss/_index.scss'
