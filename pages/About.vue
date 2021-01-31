@@ -3,6 +3,7 @@
     <div class=icon>
       <img alt="Siroshun09's icon" src="https://i.imgur.com/grWEt3W.jpg" />
     </div>
+    <LastUpdatedDate path="/assets/markdown/About.md"/>
     <div class=markdown>
       <Markdown path="About" />
     </div>
@@ -11,10 +12,13 @@
 
 <script>
 import Markdown from '@/components/Markdown.vue';
+import LastUpdatedDate from '@/components/LastUpdatedDate.vue';
+
 export default {
   scrollToTop: true,
   components: {
-    Markdown
+    Markdown,
+    LastUpdatedDate
   },
   head() {
     return {
