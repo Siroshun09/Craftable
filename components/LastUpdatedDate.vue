@@ -39,7 +39,7 @@ export default {
           var json = data[0]
           const dayjs = require('dayjs')
           var isoDate = json.commit.author.date
-          this.date = dayjs(isoDate).locale('ja_jp').format('YYYY/MM/DD HH:MM')
+          this.date = dayjs(isoDate).locale('ja_jp').format('YYYY/MM/DD HH:mm')
         })
         .catch(error => {
             this.date = "Unknown"
