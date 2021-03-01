@@ -16,7 +16,7 @@
     "@nuxt/typescript-runtime": "^2.0.2",
     "@nuxtjs/sitemap": "^2.4.0",
     "@octokit/rest": "^18.3.0",
-    "core-js": "^3.9.0",
+    "core-js": "^3.9.1",
     "dayjs": "^1.10.4",
     "markdown-it-highlightjs": "^3.4.0",
     "nuxt": "^2.15.2"
