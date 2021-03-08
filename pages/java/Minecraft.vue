@@ -1,37 +1,38 @@
 <template>
-  <div class=markdown>
+  <div class="markdown">
     <Markdown path="java/Minecraft" />
   </div>
 </template>
 
 <script>
-import Markdown from '@/components/Markdown.vue';
+import Markdown from '@/components/Markdown.vue'
 export default {
   components: {
-    Markdown
+    Markdown,
   },
   head() {
     return {
       title: 'Minecraft Plugins',
-      meta: [{
+      meta: [
+        {
           hid: 'description',
           name: 'description',
-          content: "Minecraft plugins created by Siroshun09"
+          content: 'Minecraft plugins created by Siroshun09',
         },
         {
           hid: 'og:title',
           property: 'og:title',
-          content: "Minecraft plugins"
+          content: 'Minecraft plugins',
         },
         {
           hid: 'og:description',
           property: 'og:description',
-          content: "Minecraft plugins created by Siroshun09"
+          content: 'Minecraft plugins created by Siroshun09',
         },
         {
           hid: 'og:url',
           property: 'og:url',
-          content: "https://siroshun09.github.io/java/minecraft"
+          content: 'https://siroshun09.github.io/java/minecraft',
         },
       ],
     }

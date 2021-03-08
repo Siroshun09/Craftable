@@ -5,8 +5,14 @@
       <span>Not found!</span>
     </h1>
     <div v-if="error.statusCode === 404" class="error">
-      <p>指定されたリンクのページ "<code>{{ this.$route.path }}</code>" は見つかりませんでした。</p>
-      <p>The page "<code>{{ this.$route.path }}</code>" couldn't be found.</p>
+      <p>
+        指定されたリンクのページ "<code>{{ this.$route.path }}</code
+        >" は見つかりませんでした。
+      </p>
+      <p>
+        The page "<code>{{ this.$route.path }}</code
+        >" couldn't be found.
+      </p>
     </div>
     <div v-else class="error">
       <p>エラーが発生しました。</p>
@@ -22,8 +28,8 @@ export default {
     title: 'Not Found',
   },
   props: ['error'],
-  layout: 'error'
-};
+  layout: 'error',
+}
 </script>
 
 <style lang="scss" scoped>
@@ -34,16 +40,16 @@ export default {
 
   h1 {
     position: relative;
-    font-size: 3.0em;
+    font-size: 3em;
 
-    >svg {
+    > svg {
       color: $not-found-red;
       z-index: 1;
-      opacity: .5;
+      opacity: 0.5;
       margin-right: 0.5em;
     }
 
-    >span {
+    > span {
       z-index: 2;
     }
   }
@@ -51,7 +57,7 @@ export default {
   .error {
     color: $not-found-red;
 
-    >p {
+    > p {
       font-size: 1.3rem;
     }
   }

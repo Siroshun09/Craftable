@@ -1,47 +1,48 @@
 <template>
-  <div id=about>
-    <div class=icon>
+  <div id="about">
+    <div class="icon">
       <img alt="Siroshun09's icon" src="https://i.imgur.com/QsvvVbG.jpg" />
     </div>
-    <LastUpdatedDate path="/assets/markdown/About.md"/>
-    <div class=markdown>
+    <LastUpdatedDate path="/assets/markdown/About.md" />
+    <div class="markdown">
       <Markdown path="About" />
     </div>
   </div>
 </template>
 
 <script>
-import Markdown from '@/components/Markdown.vue';
-import LastUpdatedDate from '@/components/LastUpdatedDate.vue';
+import Markdown from '@/components/Markdown.vue'
+import LastUpdatedDate from '@/components/LastUpdatedDate.vue'
 
 export default {
   scrollToTop: true,
   components: {
     Markdown,
-    LastUpdatedDate
+    LastUpdatedDate,
   },
   head() {
     return {
       title: 'About',
-      meta: [{
+      meta: [
+        {
           hid: 'description',
           name: 'description',
-          content: "Who is Siroshun09?"
+          content: 'Who is Siroshun09?',
         },
         {
           hid: 'og:title',
           property: 'og:title',
-          content: "About"
+          content: 'About',
         },
         {
           hid: 'og:description',
           property: 'og:description',
-          content: "Who is Siroshun09?"
+          content: 'Who is Siroshun09?',
         },
         {
           hid: 'og:url',
           property: 'og:url',
-          content: "https://siroshun09.github.io/about"
+          content: 'https://siroshun09.github.io/about',
         },
       ],
     }
@@ -66,7 +67,7 @@ export default {
     z-index: 1;
     margin-bottom: 1.5em;
 
-    >img {
+    > img {
       margin-left: auto;
       margin-right: auto;
       height: 40%;

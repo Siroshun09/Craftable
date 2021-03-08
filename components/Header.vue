@@ -3,7 +3,7 @@
     <nav id="nav">
       <div>
         <router-link to="/" class="logo">
-          <img alt="logo" src="@/assets/logo.png">
+          <img alt="logo" src="@/assets/logo.png" />
           <span>Craftable</span>
         </router-link>
       </div>
@@ -21,62 +21,74 @@
             <font-awesome icon="code" fixed-width />
             Programming
           </span>
-          <ul :class="{ active: open_programming, 'top-level': true}">
+          <ul :class="{ active: open_programming, 'top-level': true }">
             <li>
-              <router-link to="/java/minecraft">
-                Minecraft
-              </router-link>
+              <router-link to="/java/minecraft"> Minecraft </router-link>
             </li>
             <li>
-              <router-link to="/java/library">
-                Java Library
-              </router-link>
+              <router-link to="/java/library"> Java Library </router-link>
             </li>
           </ul>
         </li>
 
         <li>
-          <a href="https://twitter.com/Siroshun09" target="_blank" rel="noopener">
+          <a
+            href="https://twitter.com/Siroshun09"
+            target="_blank"
+            rel="noopener"
+          >
             <font-awesome :icon="['fab', 'twitter']" fixed-width />
             Twitter
           </a>
         </li>
 
         <li>
-          <a href="https://github.com/Siroshun09" target="_blank" rel="noopener">
+          <a
+            href="https://github.com/Siroshun09"
+            target="_blank"
+            rel="noopener"
+          >
             <font-awesome :icon="['fab', 'github']" fixed-width />
             GitHub
           </a>
         </li>
-
       </ul>
 
-      <button aria-label="navigation-menu-toggle" id="nav-menu-toggle" @click="menu = !menu">
+      <button
+        aria-label="navigation-menu-toggle"
+        id="nav-menu-toggle"
+        @click="menu = !menu"
+      >
         <font-awesome icon="bars" />
       </button>
 
       <transition name="fade">
-        <div id="nav-focus" class="overlay-focus" v-if="menu" @click="menu = !menu" />
+        <div
+          id="nav-focus"
+          class="overlay-focus"
+          v-if="menu"
+          @click="menu = !menu"
+        />
       </transition>
     </nav>
   </div>
 </template>
 
 <script>
-  export default {
-    data() {
-      return {
-        menu: false,
-        open_programming: false,
-      };
+export default {
+  data() {
+    return {
+      menu: false,
+      open_programming: false,
+    }
+  },
+  watch: {
+    $route() {
+      this.menu = false
+      this.open_programming = false
     },
-    watch: {
-      $route() {
-        this.menu = false;
-        this.open_programming = false;
-      },
-    },
-  } 
+  },
+}
 </script>
 
 <style scoped lang="scss">
@@ -103,7 +115,7 @@
 #nav {
   padding: 0.25em;
   z-index: 100;
-  box-shadow: 0 0 0.5rem rgba(0, 0, 0, .25);
+  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.25);
   display: flex;
   background-color: $header-background;
   justify-content: space-between;
@@ -116,7 +128,7 @@
   .logo {
     display: flex;
     align-items: center;
-    height: 2.0em;
+    height: 2em;
     padding: 0.1em;
     padding-right: 0.25em;
 
@@ -156,7 +168,7 @@
     max-width: 20rem;
     z-index: 100;
     list-style: none;
-    transition: right .2s;
+    transition: right 0.2s;
 
     @include breakpoint($sm) {
       flex-direction: row;
@@ -171,16 +183,16 @@
 
     &.active {
       @include breakpoint($xs) {
-        transition: all .2s;
+        transition: all 0.2s;
         right: 0;
         display: initial;
-        border-left: thin solid rgba(0, 0, 0, .25);
+        border-left: thin solid rgba(0, 0, 0, 0.25);
       }
     }
 
     &.top-level:not(.active) {
       @include breakpoint($xs) {
-        transition: all .2s;
+        transition: all 0.2s;
         display: none;
       }
     }
@@ -202,9 +214,9 @@
         font-size: 1.5rem;
         font-weight: bold;
         text-decoration: none;
-        transition: all .2s;
+        transition: all 0.2s;
         width: 100%;
-        padding: .5em 1em;
+        padding: 0.5em 1em;
 
         @include breakpoint($sm) {
           font-size: 1.25rem;
@@ -212,16 +224,15 @@
 
         svg {
           margin-right: 0.25em;
-          opacity: .5;
+          opacity: 0.5;
         }
 
         &:hover {
           background-color: $header-background-hover;
         }
-
       }
 
-      >ul {
+      > ul {
         position: relative;
         top: 0em;
         bottom: auto;
@@ -233,7 +244,7 @@
           @include breakpoint($xs) {
             right: 0;
             display: initial;
-            border-left: thin solid rgba(0, 0, 0, .25);
+            border-left: thin solid rgba(0, 0, 0, 0.25);
           }
         }
 
@@ -243,7 +254,7 @@
           }
         }
 
-        >li {
+        > li {
           @include breakpoint($xs) {
             border-left: 1ex solid $brand-color;
           }
@@ -259,7 +270,7 @@
           min-width: 100%;
           background: $header-background;
           z-index: 100;
-          box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
+          box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
 
           li {
             &:hover {

@@ -14,26 +14,26 @@
 </template>
 
 <script>
-import NotFound from "@/components/NotFound.vue";
+import NotFound from '@/components/NotFound.vue'
 export default {
   props: {
     path: {
       type: String,
       required: true,
-    }
+    },
   },
   components: {
     NotFound,
   },
   data() {
     return {
-      content: null
+      content: null,
     }
   },
   created() {
     const markdown = require(`@/assets/markdown/${this.path}.md`)
     this.content = markdown.vue.component
-  }
+  },
 }
 </script>
 
@@ -98,7 +98,7 @@ export default {
   }
 
   h1 {
-    font-size: 2.0rem;
+    font-size: 2rem;
     line-height: 1.75;
     border-bottom: 1px solid #eee;
   }
@@ -137,8 +137,8 @@ export default {
     margin: 0.8em 0;
   }
 
-  li>ol,
-  li>ul {
+  li > ol,
+  li > ul {
     margin: 0 0;
   }
 
@@ -226,7 +226,7 @@ export default {
   }
 
   .code-tooltip {
-    box-shadow: 0 1px 1px 0 rgba(0, 28, 36, .3);
+    box-shadow: 0 1px 1px 0 rgba(0, 28, 36, 0.3);
     border-top: 1px solid #eef2f2;
   }
 
