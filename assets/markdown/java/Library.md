@@ -2,7 +2,7 @@
 
 ## ConfigAPI
 
-[![GitHub](https://img.shields.io/badge/GitHub-ConfigAPI-blue)](https://github.com/Siroshun09/ConfigAPI) ![Maven Central](https://img.shields.io/maven-central/v/com.github.siroshun09.configapi/configapi) ![Maven Central](https://img.shields.io/nexus/s/com.github.siroshun09.configapi/configapi?label=snapshot&server=https%3A%2F%2Foss.sonatype.org) ![GitHub](https://img.shields.io/github/license/Siroshun09/ConfigAPI) [![Javadoc](https://img.shields.io/badge/javadoc-page-orange)](https://siroshun09.github.io/ConfigAPI/)
+[![gitHub](https://img.shields.io/badge/GitHub-ConfigAPI-blue)](https://github.com/Siroshun09/ConfigAPI) ![Maven Central](https://img.shields.io/maven-central/v/com.github.siroshun09.configapi/configapi) ![Maven Central](https://img.shields.io/nexus/s/com.github.siroshun09.configapi/configapi?label=snapshot&server=https%3A%2F%2Foss.sonatype.org) ![GitHub](https://img.shields.io/github/license/Siroshun09/ConfigAPI) [![Javadoc](https://img.shields.io/badge/javadoc-page-orange)](https://siroshun09.github.io/ConfigAPI/)
 
 Yaml ファイルの読み込みを支援するライブラリ。
 
