@@ -67,11 +67,3 @@ Discord には処罰の解除情報も送られる。
 プラットフォーム別のコマンド処理を書く必要をなくすライブラリ。
 
 また、Paper の非同期なタブ補完への登録, 引数のパーサー, サブコマンド検索など、あったらコードを減らせる機能が含まれています。
-
----
-
-### ConfigAPI
-
-[![GitHub](https://img.shields.io/badge/GitHub-ConfigAPI-blue)](https://github.com/Siroshun09/ConfigAPI) [![Latest Version](https://img.shields.io/bintray/v/siroshun09/maven/ConfigAPI?label=Latest)](https://bintray.com/siroshun09/maven/ConfigAPI/_latestVersion) ![GitHub](https://img.shields.io/github/license/Siroshun09/ConfigAPI?label=License) [![Bintray](https://img.shields.io/bintray/v/siroshun09/maven/ConfigAPI?color=orange&label=Javadoc)](https://siroshun09.github.io/ConfigAPI/)
-
-Spigot や BungeeCord での Yaml ファイルの扱いを少し楽にするライブラリ。
