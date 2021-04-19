@@ -3,17 +3,16 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "nuxt-ts",
-    "build": "nuxt-ts build",
-    "start": "nuxt-ts start",
-    "generate": "nuxt-ts generate"
+    "dev": "nuxt",
+    "build": "nux- build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.35",
     "@fortawesome/free-brands-svg-icons": "^5.15.3",
     "@fortawesome/free-solid-svg-icons": "^5.15.3",
     "@fortawesome/vue-fontawesome": "^2.0.2",
-    "@nuxt/typescript-runtime": "^2.1.0",
     "@nuxtjs/sitemap": "^2.4.0",
     "@octokit/rest": "^18.5.2",
     "core-js": "^3.10.1",
