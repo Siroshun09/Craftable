@@ -53,8 +53,6 @@ export default {
 </script>
 
 <style lang='scss'>
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Ubuntu:wght@500&display=swap');
-
 * {
   box-sizing: border-box;
 }
@@ -98,7 +96,7 @@ pre {
 
   display: flex;
   flex-flow: column;
-  font-family: 'Noto Sans JP', sans-serif;
+  font-family: 'Hiragino Sans', 'Yu Gothic UI', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

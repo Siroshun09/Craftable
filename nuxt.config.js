@@ -113,15 +113,7 @@ export default {
         rel: 'mask-icon',
         href: '/safari-pinned-tab.svg',
         color: '#5bbad5',
-      },
-      {
-        rel: 'dns-prefetch',
-        href: 'https://fonts.googleapis.com',
-      },
-      {
-        rel: 'preconnect',
-        href: 'https://fonts.gstatic.com/',
-      },
+      }
     ],
   },
 
@@ -140,6 +132,8 @@ export default {
     '@nuxt/typescript-build',
     // https://google-analytics.nuxtjs.org
     '@nuxtjs/google-analytics',
+    // https://google-fonts.nuxtjs.org    
+    '@nuxtjs/google-fonts'
   ],
 
   // Modules (https://go.nuxtjs.dev/config-modules)
@@ -196,6 +190,15 @@ export default {
 
   googleAnalytics: {
     id: 'G-0QZQ25GGX8',
+  },
+
+  googleFonts: {
+    families: {
+      Ubuntu: [400]
+    },
+    download: true,
+    inject: true,
+    display: 'block'
   },
 
   sitemap: {
