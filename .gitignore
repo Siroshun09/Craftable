@@ -328,4 +328,7 @@ yarn-error.log
 # and uncomment the following lines
 # .pnp.*
 
+assets/css/fonts.css
+assets/fonts
+
 # End of https://www.toptal.com/developers/gitignore/api/yarn,vue,vuejs,intellij,webstorm,vscode,node
