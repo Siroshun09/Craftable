@@ -18,7 +18,7 @@
     "core-js": "^3.12.1",
     "dayjs": "^1.10.4",
     "markdown-it-highlightjs": "^3.4.0",
-    "nuxt": "^2.15.5"
+    "nuxt": "^2.15.6"
   },
   "devDependencies": {
     "@nuxt/types": "^2.15.6",
